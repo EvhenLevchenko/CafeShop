@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link rel="stylesheet" href="../CSS/Contact.css">
+  </head>
+  <body>
+
+<table style="width: 1700px;border:0px;">
+
+<tr>
+  <td colspan="2" style="background-color:#85C2FF;">
+   <h1 align=center style="color: black;">Верхняя часть сайта</h1>
+  </td>
+</tr>
+
+
+<tr style="vertical-align: top;">
+  <td style="background-color:#C2EBFF;width:100px;text-align:top;">
+   <b>Меню</b>
+   <br>пункт 1
+   <br>пункт 2
+   <br>пункт 3
+  </td>
+
+<td id="form" style="height:600px;width:40;">
+  <form  action="" method="post">
+
+<div>
+      <input required type="text" id="first_name" name="first_name">
+      <label for="first_name">First name</label>
+    </div>
+
+<div>
+  <input required type="text" id="last_name" name="last_name">
+  <label for="last_name">Last name</label>
+</div>
+
+<div>
+  <input required type="text" id="email" name="email">
+  <label for="email">Email address</label>
+  <div class="requirements">
+    You must be input valid address
+  </div>
+</div>
+
+<div>
+  <input required type="password" id="password" name="password"
+  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
+  <label for="password">Password</label>
+  <div class="requirements">
+    Your password must includes not more than 6 symbols,
+    also your password must have both numbers and letters,
+     either big or small.
+ </div>
+</div>
+
+<input type="submit"  value="Sign up">
+</form>
+</td>
+</tr>
+
+<tr>
+  <td colspan="2" style="background-color:#85C2FF;text-align:center;">
+     Copyright © 2012 www.puzzleweb.ru
+  </td>
+</tr>
+</table>
+
+
+
+
+
+</body>
+</html>
