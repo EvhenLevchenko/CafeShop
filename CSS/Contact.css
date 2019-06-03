@@ -1,25 +1,25 @@
-#form{
+#form {
   background-color: #800000;
   font-family: cursive;
   padding: 10px;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-form{
+form {
   max-width: 400px;
   margin: 0 auto;
 }
 
-form>div{
+form>div {
   position: relative;
   background: white;
   border-bottom: 1px solid #ccc;
 }
 
-form>div>label{
+form>div>label {
   opacity: 0.3;
   font-weight: bold;
   position: absolute;
@@ -30,44 +30,42 @@ form>div>label{
 form>div>input[type="text"],
 form>div>input[type="email"],
 form>div>input[type="password"] {
-width: 100%;
-border: 0px;
-padding: 20px 20px 20px 50px;
-background: #eee;
+  width: 100%;
+  border: 0px;
+  padding: 20px 20px 20px 50px;
+  background: #eee;
 }
 
 form>div>input[type="text"]:focus,
 form>div>input[type="email"]:focus,
 form>div>input[type="password"]:focus {
-outline: 0;
-background: white;
+  outline: 0;
+  background: white;
 }
 
-form>div>input[type="text"]:focus + label,
-form>div>input[type="email"]:focus + label,
-form>div>input[type="password"]:focus + label {
-opacity: 0;
+form>div>input[type="text"]:focus+label,
+form>div>input[type="email"]:focus+label,
+form>div>input[type="password"]:focus+label {
+  opacity: 0;
 }
 
 form>div>input[type="text"]:valid,
 form>div>input[type="email"]:valid,
 form>div>input[type="password"]:valid {
-background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
--webkit-background-size:20px;
-background-size: 20px;
-background-repeat:no-repeat;
-background-position: 20px 20px;
-
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+  -webkit-background-size: 20px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
 }
 
-
-form>div>input[type="text"]:valid + label,
-form>div>input[type="email"]:valid + label,
-form>div>input[type="password"]:valid + label {
-opacity: 0;
+form>div>input[type="text"]:valid+label,
+form>div>input[type="email"]:valid+label,
+form>div>input[type="password"]:valid+label {
+  opacity: 0;
 }
 
-form>div .requirements{
+form>div .requirements {
   padding: 0 30px 0 50px;
   color: #999;
   max-height: 0;
@@ -77,13 +75,13 @@ form>div .requirements{
   font-style: italic;
 }
 
-form input[type="submit"]{
+form input[type="submit"] {
   display: block;
   width: 100%;
   margin: 20px 0;
   background: #41D873;
   color: white;
-  border:0;
+  border: 0;
   padding: 20px;
   font-size: 1.2rem;
 }
