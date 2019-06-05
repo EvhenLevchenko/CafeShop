@@ -30,20 +30,6 @@
     <p><a href="../../example/knob.html">Относительная ссылка</a></p>
 
 
-<title>Обработка HTML формы с помощью PHP</title>
-</head>
-<body>
-<form action="form_processing.php" method="post">
-<p>Ваше имя:<br /><input type="text" name="your_name" /></p>
-<p>E-mail:<br /><input type="text" name="email" /></p>
-<p>Тема:<br /><input type="text" name="tema" /></p>
-<p>Сообщение:<br />
-<textarea name="message" rows="5" cols="45"> </textarea></p>
-<p><input type="submit" value="Отправить"></p>
-</form>
-</body>
-</html>
-
 
     <ol class="menu-main" color="Black" type="I">
       <li><a href="food/cofe.jpg">Coffee</a></li>
@@ -51,6 +37,7 @@
       <li><a href="html/About.html">About</a></li>
       <li><a href="html/Contact.html">Contact</a></li>
       <li><a href="html/Authorization.php">Authorization</a></li>
+      <li><a href="html/Php.php">PHP</a></li>
 
     </ol></SELECT>
 
